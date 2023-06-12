@@ -131,7 +131,8 @@ img {
         width: 100%;
         max-width: 1160px;
     }
- @media screen and (max-width: 480px){
+
+ /*@media screen and (max-width: 480px){
     .row{
         display: flex;
         flex-direction: column;   
@@ -145,4 +146,15 @@ img {
         width: 100%;
         margin:20px 0px;
     }
- }
+ }*/
+@media screen and (min-width:220px){
+    .row{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    .col{
+        min-width:300px ;
+        margin: 3rem auto;
+    }
+}
