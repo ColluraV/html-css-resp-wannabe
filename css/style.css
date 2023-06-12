@@ -132,21 +132,6 @@ img {
         max-width: 1160px;
     }
 
- /*@media screen and (max-width: 480px){
-    .row{
-        display: flex;
-        flex-direction: column;   
-    }
-
-    .lessons .col,    .steps .col{
-        margin: 3rem auto;
-        width: 90%;
-    }
-    .why-us .col-right, .why-us .col-left{
-        width: 100%;
-        margin:20px 0px;
-    }
- }*/
 @media screen and (min-width:220px){
     .row{
         display:flex;
@@ -154,7 +139,7 @@ img {
         justify-content: center;
     }
     .col{
-        min-width:300px ;
+        min-width:220px ;
         margin: 3rem auto;
     }
 }
